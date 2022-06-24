@@ -12,11 +12,7 @@ spec:
         app: indikaapp01
     spec:
       containers:
-<<<<<<< HEAD
       - name: indikaapp01
-=======
-      - name: sidapp01
->>>>>>> 5fde3c5963d72a6162b0959d7d075ef738bcf712
         image: sbacr02.azurecr.io/indikaapp01:latest
         resources:
           limits:
